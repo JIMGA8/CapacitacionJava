@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class Modulo1 {
     public static void main(String[] args) throws Exception {
         System.out.print("hola \n"); // imprime todo en una linea
         System.out.println("hola2"); // da un salto de linea
@@ -10,19 +10,21 @@ public class App {
         // variables
 
         // tipo varable nombreVariable
-        byte miByte; // 1 Byte --> 8 Binarios --> 2^8 256 ---> -128 a 127
+        byte miByte; // 1 Byte --> 8 Bits --> 2^8= 256 ---> de -128 a 127
         miByte = 127;
         System.out.println(miByte);
 
-        short miShort; // 2 byte--> 16 Binarios -->2^16 .... ---> -
+        short miShort; // 2 Byte--> 16 Bits -->2^16 = 65336 ---> de -32768 a 32767
         miShort = 129;
         System.out.println(miShort);
 
-        int miInt; // 3 Byte -->32 binarios 4294967295 //este es el que mas vamos a usar
+        int miInt; // 3 Byte --> 32 Bits--> 2^32= 4294967295 --> de -2.147.483.648 a -2.147.483.647
+                   // este es el que mas vamos a usar
         miInt = 4659;
         System.out.println(miInt);
 
-        long miLong; // 4 Byte --> 64 binarios
+        long miLong; // 4 Byte --> 64 Bits -> 2^64 18.446.744.073.709.551.615 --> de
+                     // -9.223.372.036.854.775.808 a -9.223.372.036.854.775.807
         miLong = 9254135652845685l;
         System.out.println("el valor de mi variable miLong es " + miLong);
 
@@ -71,11 +73,11 @@ public class App {
         System.out.println("la Division es " + operacion);
 
         operacion = num1 % num2;
-        System.out.println("es resto es " + operacion);
+        System.out.println("el resto es " + operacion);
 
         num1 = num1 + num2;
         System.out.println(num1);
-        num1 += num2;
+        num1 += num2; // esto es lo mismo que escirba num1= num1 +num2;
         System.out.println(num1);
 
         num1 -= num2;
@@ -118,8 +120,8 @@ public class App {
         System.out.println(cont);
 
         /*
-         * Realice un programa que dado un numero entero muestre en la consola el
-         * equivalente en semanas, dias y horas..
+         * Realice un programa que dado un numero entero de horas muestre en la consola
+         * el equivalente en semanas, dias y horas..
          * 
          * ejemplo:
          * 
@@ -149,15 +151,13 @@ public class App {
         totalHoras = scan.nextInt();
 
         semanas = totalHoras / (7 * 24);
-        System.out.println("la cantidad de semanas es: " + semanas);
 
         resto = totalHoras % (7 * 24);
 
         dias = resto / 24;
-        System.out.println("la cantindad de dias es " + dias);
 
         horas = resto % 24;
-        System.out.println("la cantindad de horas es " + horas);
-
+        System.out.println(
+                totalHoras + " horas equivale a: \n" + semanas + " semanas \n" + dias + " dias \n" + horas + " horas");
     }
 }

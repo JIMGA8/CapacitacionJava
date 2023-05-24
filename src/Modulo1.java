@@ -36,15 +36,15 @@ public class Modulo1 {
 
         double miDouble; // contine 8 byte //este es el que mas vamos a usar
         miDouble = 10.657;
-        System.out.println("el valor de mi " + miDouble);
+        System.out.println("el valor de miDouble " + miDouble);
 
-        // boleanos y Chart
+        // boleanos y Char
 
         boolean miBoolean = true; // boleano es true o false
         System.out.println(miBoolean);
 
-        char michar = '$'; // este recibe un caracter
-        System.out.println("el valor de miChar es " + michar);
+        char miChar = '$'; // este recibe un caracter
+        System.out.println("el valor de miChar es " + miChar);
 
         String miString = "ya sabemos Tipos de Datos";
         System.out.println(miString);
@@ -77,7 +77,7 @@ public class Modulo1 {
 
         num1 = num1 + num2;
         System.out.println(num1);
-        num1 += num2; // esto es lo mismo que escirba num1= num1 +num2;
+        num1 += num2; // esto es lo mismo que escriba num1= num1 +num2;
         System.out.println(num1);
 
         num1 -= num2;
@@ -125,7 +125,7 @@ public class Modulo1 {
          * 
          * ejemplo:
          * 
-         * 1800 horas equivale a:
+         * 1802 horas equivale a:
          * n semanas
          * n dias
          * n horas

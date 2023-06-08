@@ -11,16 +11,22 @@ public class Modulo2 {
         int num1 = 4;
         int num2 = 7;
 
-        System.out.println("igualdad ==  num1 es igual a num2 : " + (num1 == num2));
-        System.out.println("distinto !=  num1 es distinto a num2 : " + (num1 != num2));
-        System.out.println("mayor >  num1 es mayor a num2 : " + (num1 > num2));
-        System.out.println("menor <  num1 es menor a num2 : " + (num1 < num2));
-        System.out.println("mayor o igual  >=  num1 es mayor o igual a num2 : " + (num1 >= num2));
-        System.out.println("menor o igual <=  num1 es menor o igual a num2 : " + (num1 <= num2));
+        // igualdad ==
+        System.out.println("igualdad \"==\"  num1 es igual a num2 : " + (num1 == num2));
+        // distinto !=
+        System.out.println("distinto \"!=\"  num1 es distinto a num2 : " + (num1 != num2));
+        // mayor que >
+        System.out.println("mayor \">\"  num1 es mayor a num2 : " + (num1 > num2));
+        // menor que <
+        System.out.println("menor \"<\"  num1 es menor a num2 : " + (num1 < num2));
+        // mayo o igual >=
+        System.out.println("mayor o igual  \">=\"  num1 es mayor o igual a num2 : " + (num1 >= num2));
+        // menor o igual <=
+        System.out.println("menor o igual \"<=\"  num1 es menor o igual a num2 : " + (num1 <= num2));
 
         num1 = 7;
-        System.out.println("mayor o igual  >=  num1 es mayor o igual a num2 : " + (num1 >= num2));
-        System.out.println("menor o igual <=  num1 es menor o igual a num2 : " + (num1 <= num2));
+        System.out.println("mayor o igual  \">=\"  num1 es mayor o igual a num2 : " + (num1 >= num2));
+        System.out.println("menor o igual \"<=\"  num1 es menor o igual a num2 : " + (num1 <= num2));
 
         String str1 = "hola";
         String str2 = "hola";
@@ -105,7 +111,7 @@ public class Modulo2 {
             }
             System.out.println(estacion);
         } catch (InputMismatchException e) { // Exception
-            // e.printStackTrace();
+            // e.printStackTrace(); //esto me permite imprimir la expeption
             System.out.println("Entrada invalida, se espera un numero entero");
         }
 

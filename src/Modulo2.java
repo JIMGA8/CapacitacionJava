@@ -38,18 +38,23 @@ public class Modulo2 {
         System.out.println(str1);
         System.out.println(str1.trim());
 
+        /*
+         * Realice un programa que se le pida el nombre del usuario y la edad por
+         * consola y se imprima
+         * hola, nombre. tienes edad anio
+         */
+
         Scanner consola = new Scanner(System.in);
 
-        // System.out.println("Ingresa tu nombre: ");
-        // String nombre = consola.nextLine();
+        System.out.println("Ingresa tu nombre: ");
+        String nombre = consola.nextLine();
 
-        // System.out.println("Ingresa tu edad: ");
-        // int edad = consola.nextInt();
+        System.out.println("Ingresa tu edad: ");
+        int edad = consola.nextInt();
 
-        // System.out.println("hola, " + nombre + " tienes " + edad + " anio");
+        System.out.println("hola, " + nombre + " tienes " + edad + " anio");
 
         // condicionales
-
         boolean condicion = true;
 
         if (condicion) {
@@ -74,6 +79,8 @@ public class Modulo2 {
         System.out.println(numero);
 
         /*
+         * programa que el usuario ingrese a un mes de año y segin el mes ingresado me
+         * imprima la estacion del año
          * enero a marzo es verano
          * Abril a junio es otonio
          * julio a septiembre es invierno

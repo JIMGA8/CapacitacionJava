@@ -159,5 +159,8 @@ public class Modulo1 {
         horas = resto % 24;
         System.out.println(
                 totalHoras + " horas equivale a: \n" + semanas + " semanas \n" + dias + " dias \n" + horas + " horas");
+
+        scan.close();
     }
+
 }

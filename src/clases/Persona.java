@@ -8,10 +8,17 @@ public class Persona {
     int dni;
     String sexo;
 
+    public Persona() {
+
+    }
+
     // contructor de la clase
-    // public Persona(String nombre){
-    // this.nombre=nombre;
-    // }
+    public Persona(String nombre, String apellido, int dni, String sexo) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dni = dni;
+        this.sexo = sexo;
+    }
 
     // metodos de la clase
     public void obtenerPersona() {
@@ -23,6 +30,10 @@ public class Persona {
 
     public String getNombre() {
         return nombre;
+    }
+
+    public String toString() {
+        return "Persona {" + "nombre=" + nombre + " apellido=" + apellido + " dni=" + dni + " sexo=" + sexo + '}';
     }
 
 }

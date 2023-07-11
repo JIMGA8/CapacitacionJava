@@ -3,8 +3,8 @@ package clases;
 public class Persona {
 
     // atributos de la clase
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     int dni;
     String sexo;
 
@@ -17,6 +17,22 @@ public class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
+        this.sexo = sexo;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setDni(int dni) {
+        this.dni = dni;
+    }
+
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
 
